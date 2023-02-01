@@ -1,0 +1,65 @@
+.match-details{
+    /* width: 100vw; */
+    /* display: flex; */
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    margin: 10px 0px;
+
+}
+
+.match-name{
+    font-weight: normal;
+    margin: 0px 3px;
+}
+
+.message-received{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.message-content{
+    margin-left: 10px;
+    background-color: rgb(68, 67, 67);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.message-sent{
+    display: inline-block;
+    margin-left: auto;
+    background-color: rgb(13, 92, 220);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.message-form{
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    /* border: 1px solid blacsk; */
+    /* border-radius: 15px; */
+    padding: 10px;
+    /* background-color: rgb(74, 73, 73); */
+    width: 95vw;
+}
+.message-input {
+    flex:1;
+    padding: 10px;
+    border: none;
+    border-radius: 15px 0px 0px 15px;
+    background-color: rgb(74, 73, 73);
+    color: white;
+  }
+  
+.message-button {
+    /* margin-right:20px; */
+    border: none;
+    background-color: rgb(74, 73, 73);
+    font-weight: bolder;
+    color: #fe3d71;
+    border-radius: 0px 15px 15px 0px;
+
+}

@@ -1,0 +1,39 @@
+.footer{
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 30px;
+}
+
+.footer_icon_bookmark{
+    padding: 10px;
+    color: rgb(38, 82, 213);
+    background-color: wheat;
+    /* border: 2px solid brown; */
+    border-radius: 30px;
+}
+
+.footer_icon_love{
+    padding: 10px;
+    color: rgb(206, 53, 53);
+    background-color: wheat;
+    /* border: 2px solid brown; */
+    border-radius: 30px;
+}
+.footer_icon_like{
+    padding: 10px;
+    color: rgb(20, 230, 27);
+    background-color: wheat;
+    /* border: 2px solid brown; */
+    border-radius: 30px;
+}
+.footer_icon_dislike{
+    padding: 10px;
+    color: rgb(24, 199, 247);
+    background-color: wheat;
+    /* border: 2px solid brown; */
+    border-radius: 30px;
+}
